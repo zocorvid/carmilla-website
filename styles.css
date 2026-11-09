@@ -1,0 +1,150 @@
+
+body{
+    margin:0;
+    padding:0;
+    color:#ff0000;
+    background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/10a2dba5-8ef8-48ab-a9a3-2548e820c26c/d2c2pnr-80a0579b-8445-42a6-92cc-ff5c413a25e2.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8xMGEyZGJhNS04ZWY4LTQ4YWItYTlhMy0yNTQ4ZTgyMGMyNmMvZDJjMnBuci04MGEwNTc5Yi04NDQ1LTQyYTYtOTJjYy1mZjVjNDEzYTI1ZTIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.X3uQ7Fp9B4m3uSO2wf45U5ExWgQh-nNNuGgEOBv-2go");
+    background-size:cover;
+    background-attachment:fixed;
+}
+header{
+    background-color:rgb(0, 0, 0);
+    text-align:center;
+    padding:20px;
+}
+.header-title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+.header-title img{
+    width:48px;
+    height:auto;
+    margin:0;
+}
+.header-title h1{
+    margin:0;
+}
+section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+section h2::before,
+section h2::after {
+    content: "";
+    width:50px;
+    height:35px;
+    background-image:url("https://media.discordapp.net/attachments/699361427864944641/1569248192099520542/RedBat.gif?ex=6af2c3c4&is=6af17244&hm=19ddc4687c150cdd76fcd3dfcb9b3261252456ef70e163f0622f7ad5b9c6e7e1&=");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+h1,h2{
+    font-family:"Cinzel",serif;
+}
+.tagline{
+    font-style:italic;
+}
+/* navigate */
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+nav a img {
+    height: 50px;  /* same height for all buttons */
+    width: auto;
+    display: block;
+    margin: 0;
+}
+/* mouse glow*/
+nav a:hover{
+    background:#b30000;
+}
+.nav-divider {
+    height: 50px; /* adjust as needed */
+    background-image:url("https://media.discordapp.net/attachments/699361427864944641/1569240492808474695/bludrule_1_.gif?ex=6af2bc98&is=6af16b18&hm=bf29e163e3fb9935b967f74a24430a7db659f639cb4bb323d3d40d7004638245&=");
+    background-repeat:repeat-x;
+    background-position:center;
+    background-size:contain;
+}
+main{
+    padding:40px;
+    max-width:1000px;
+    margin:0 auto;
+}
+.content-box,
+.hero{
+    background-color:rgb(0, 0, 0);
+    padding:20px;
+    margin-bottom:20px;
+}
+.hero{
+    position:relative;
+}
+/* credit */
+footer{
+    position:relative;
+    text-align:center;
+    background:#111;
+    padding:15px;
+}
+/* img adjust */
+img{
+    width:100%;
+    max-width:600px;
+    display:block;
+    margin:20px auto;
+}
+section{
+    background-color:rgb(0, 0, 0);
+    padding:25px;
+    margin:30px auto;
+    max-width:1000px;
+}
+section h2{
+    margin-bottom:20px;
+}
+/* table styling */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+th,
+td{
+    padding:15px;
+    text-align:left;
+    border:1px solid #8b0000;
+}
+th{
+    background-color:rgba(139,0,0,.8);
+    color:white;
+}
+td{
+    background-color:rgba(0,0,0,.5);
+}
+tr:hover td{
+    background-color:rgba(139,0,0,.3);
+}
+/* layout adjustment for smaller screen */
+@media(max-width:768px){
+    nav ul{
+        flex-direction:column;
+        align-items:center;
+    }
+    body{
+        font-size:.95rem;
+    }
+    main{
+        padding:20px;
+    }
+    section{
+        margin:15px;
+    }
+}
