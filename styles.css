@@ -3,7 +3,7 @@ body{
     margin:0;
     padding:0;
     color:#ff0000;
-    background-image:url("https://media.discordapp.net/attachments/699361427864944641/1569445820577746974/EK2UMJKIONJNLSZBIPGAUKL3YNHGJUXJ.gif?ex=6af37bd2&is=6af22a52&hm=4caeee4bf386bdf77fe6c45fa63e624b7dbf1ad95065123ed7fd66e9f10c1442&=");
+    background-image:url("https://zephyrassets.carrd.co/assets/images/image06.gif?v=0ddf60e4");
     background-repeat:repeat;
     background-attachment:fixed;
 }
@@ -37,7 +37,7 @@ section h2::after {
     content: "";
     width:50px;
     height:35px;
-    background-image:url("https://media.discordapp.net/attachments/699361427864944641/1569248192099520542/RedBat.gif?ex=6af2c3c4&is=6af17244&hm=19ddc4687c150cdd76fcd3dfcb9b3261252456ef70e163f0622f7ad5b9c6e7e1&=");
+    background-image:url("https://zephyrassets.carrd.co/assets/images/image06.gif?v=0ddf60e4");
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
@@ -68,7 +68,7 @@ nav a:hover{
 }
 .nav-divider {
     height: 50px; /* adjust as needed */
-    background-image:url("https://media.discordapp.net/attachments/699361427864944641/1569240492808474695/bludrule_1_.gif?ex=6af2bc98&is=6af16b18&hm=bf29e163e3fb9935b967f74a24430a7db659f639cb4bb323d3d40d7004638245&=");
+    background-image:url("https://zephyrassets.carrd.co/assets/images/image08.gif?v=0ddf60e4");
     background-repeat:repeat-x;
     background-position:center;
     background-size:contain;
